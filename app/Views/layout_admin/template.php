@@ -20,10 +20,9 @@
     </div> -->
     <div class="menu">
         <div class="menu-links">
-            <a href="<?= base_url('dashboard') ?>">Home <i class="i-home fi fi-rr-home"></i></a>
-            <a href="<?= base_url('katalog') ?>">Belanja <i class=" i-belanja fi fi-rr-shopping-bag "></i></a>
-            <a href="<?= base_url('transaksi') ?>">Transaksi <i class="i-transaksi fi fi-rr-shopping-cart"></i></a>
-            <a href="#">Contact <i class="i-contact fi fi-rr-phone-call"></i></a>
+            <a href="Inventory">Inventoy <i class="fa-solid fa-warehouse"></i></a>
+            <a href="Masuk">Stock In <i class="fa-solid fa-boxes-stacked"></i></a>
+            <a href="Keluar">Order Katalog <i class="fa-solid fa-truck-moving"></i></a>
         </div>
         <div class="profil">
             <div class="profil-u">
@@ -32,8 +31,7 @@
             </div>
         </div>
         <div class="menu">
-            <!-- <a href="logout"><button class="log-in">Logout</button></a> -->
-            <a href="<?= base_url('/logout') ?>"><button class="log-in">Logout</button></a>
+            <a href="logout"><button class="log-in">Logout</button></a>
         </div>
 
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= base_url('/scss/main.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/styles.css') ?>">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
@@ -11,6 +11,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <title>Shoju</title>
+    <link href="<?= base_url('css/styles2.css') ?>" rel="stylesheet" />
 </head>
 
 <body>
@@ -93,6 +94,21 @@
             console.log("Selected Size: " + size);
         }
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="<?= base_url('js/scripts.js') ?>"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="<?= base_url('assets/demo/chart-area-demo.js') ?>"></script>
+    <script src="<?= base_url('assets/demo/chart-bar-demo.js') ?>"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+    <script src="<?= base_url('js/datatables-simple-demo.js') ?>"></script>
+
+
+    <?= $this->renderSection('script'); ?>
+    <script>
+
+    </script>
+
 
 </body>
 

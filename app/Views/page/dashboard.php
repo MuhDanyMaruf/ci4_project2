@@ -21,9 +21,7 @@
             <div class="content">
                 <h2>Celana</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Architecto, hic? Magnam eum error saepe doloribus corrupti
-                    repellat quisquam alias doloremque!
+                Celana Shoju: gaya modern, kenyamanan tinggi. Terbuat dari bahan berkualitas untuk tampil trendi dan nyaman sepanjang hari.
                 </p>
                 <a href="">Read More</a>
             </div>
@@ -35,9 +33,7 @@
             <div class="content">
                 <h2>Baju</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Architecto, hic? Magnam eum error saepe doloribus corrupti
-                    repellat quisquam alias doloremque!
+                Baju Shoju: Gaya trendi, kenyamanan luar biasa. Pilih kualitas untuk penampilan fashion yang elegan sepanjang hari.
                 </p>
                 <a href="">Read More</a>
             </div>
@@ -49,9 +45,7 @@
             <div class="content">
                 <h2>Dress</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Architecto, hic? Magnam eum error saepe doloribus corrupti
-                    repellat quisquam alias doloremque!
+                Dress Shoju: Elegan dan nyaman. Tampil modis sepanjang hari dengan dress berkualitas tinggi ini.
                 </p>
                 <a href="">Read More</a>
             </div>

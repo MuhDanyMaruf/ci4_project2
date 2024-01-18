@@ -4,7 +4,7 @@
 
 
 <div class="body">
-    <div class="sidebar" id="mySidebar">
+    <!-- <div class="sidebar" id="mySidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <h2>Categories</h2>
         <a href="#" onclick="filterItems('baju')">Baju</a>
@@ -15,9 +15,9 @@
         <label><input type="checkbox" onclick="filterItemsBySize('m')"> M</label>
         <label><input type="checkbox" onclick="filterItemsBySize('l')"> L</label>
         <label><input type="checkbox" onclick="filterItemsBySize('xl')"> XL</label>
-    </div>
+    </div> -->
 
-    <div class="background" id="main">
+    <!-- <div class="background" id="main">
         <div class="centering">
 
             <div class="articles">
@@ -74,7 +74,28 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <section class="content-1" id="card">
+        <div class="container-card">
+            <?php foreach ($namapakaian as $p) : ?>
+                <div class="card" style="--clr: #009688">
+                    <div class="img-box">
+                        <img src="<?= base_url('uploads/' . $p['gambar']) ?>" alt="Uploaded Image" width="100" height="100">
+                    </div>
+                    <div class="content">
+                        <h2><?= $p['namapakaian']; ?></h2>
+                        <p><?= $p['deskripsi']; ?></p>
+                        <p>Harga = Rp. <?= number_format($p['hargapakaian'], 0, ',', '.'); ?>, Tersedia = <?= $p['stok']; ?></p>
+                        <a href="<?= base_url('beli/'. $p['idpakaian'] )?>">Beli</a>
+                        <!-- <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#beli<?= $p['idpakaian']; ?>">
+                            Beli
+                        </button> -->
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </section>
 </div>
 </div>
 

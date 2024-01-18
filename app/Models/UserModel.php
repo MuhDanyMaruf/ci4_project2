@@ -13,5 +13,8 @@ class UserModel extends Model
     protected $allowedFields = ['email', 'username', 'fullname', 'user_image'];
 
     // Metode untuk mendapatkan data profil pengguna
-
+    public function getUserById($userId)
+    {
+        return $this->find($userId);
+    }
 }
