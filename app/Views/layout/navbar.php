@@ -9,15 +9,11 @@
         <i class="fa-solid fa-font-owesome"></i>
         <a href="#">SHOJU</a>
     </div>
-    <!-- searchbar -->
-    <!-- <div class="wrap">
-        <div class="search">
-            <input type="text" class="searchTerm" placeholder="Search....">
-            <button type="submit" class="searchButton">
-                <i class="fa fa-search"></i>
-            </button>
-        </div>
-    </div> -->
+
+    <!-- SEARCH BAR -->
+    
+    <!-- SEARCH BAR SELESAI -->
+
     <div class="menu">
         <div class="menu-links">
             <a href="<?= base_url('dashboard') ?>">Home <i class="i-home fi fi-rr-home"></i></a>
